@@ -1,0 +1,937 @@
+ TODO(ahundt) consider making image_model_weights shared vs separate configurable,DSTD
+ Matrix multiplication based implementation of tf.gather on zeroth axis. ||  ||   TODO(rathodv): add runtime checks for depth and indices.,DSTD
+ TODO: allow pre_clustering_routine to handle outliers,DSTD
+ TODO: implement recall hooks for other datasets,DSTD
+ TODO: why normal and not uniform?,DSTD
+ TODO temp only has one filter map,DSTD
+ TODO: should we do anything about isoforms?,DSTD
+ TODO: mask shape is incorrect,DSTD
+ TODO Every model must return a layer named 'logits',DSTD
+ maybe irrelevant for COCO,DSTD
+ TODO: replay_buffer refactoring,DSTD
+ TODO: Move config in train\/test cfg.,DSTD
+ TODO(kbanoop): Handle the case where some boxes in selected_boxes do not,DSTD
+ TO-DO replace this with label map,DSTD
+ TODO: How to handle this case? Is an empty classification acceptable? I think it is better than a fixed (and potentially misleading or incorrect classification,DSTD
+ TODO: ``full_cov`` True would return a ``fvar`` of shape N x N x D x D,DSTD
+ TODO SaltAndPepper,DSTD
+ ToDo: only do this if verbosity is large enough,DSTD
+" @todo: Estimation of x_min instead of the \""max\"" heuristic.",DSTD
+ TODO: Non isotropic?,DSTD
+ TODO clip_augmented_images(),DSTD
+" TODO I shouldn't really be using \""decoded\"" for the validation set dir",DSTD
+ fix RGB to BGR,DSTD
+ larger is better,DSTD
+ Given the name of a model architecture,DSTD
+ TODO: set a function in wavernn code base for model setup and call it here.,DSTD
+ TODO: reset canvas,DSTD
+ TODO: InstanceNorm,DSTD
+ # Fix TF 0.12,DSTD
+ ''' ||     fit a poly inside the origin poly,DSTD
+ 'numpydoc',DSTD
+ Split dataset in many part. If the dataset is too big,DSTD
+ TODO : replace with json of wanted structures,DSTD
+ If the signal dictionary pickled data was deleted because j1979 tagging needed to happen,DSTD
+TODO Adjust num epochs to your dataset. This step is enough to obtain a not bad model.,DSTD
+ TODO use all attributes,DSTD
+ implement copy on buyers,DSTD
+ TODO: setting different learning rates for different param groups unsupported,DSTD
+ This is needed to display the images.,DSTD
+  ||     TODO: ||         - [ ] Read arbitrary coco datasets here ||         - [ ] Do proper train \/ validation split ||         - [ ] Allow custom train \/ validation split ||,DSTD
+ TODO: Double check what happens in this scenario with all actions,DSTD
+ Compute how many unique nights of data taking existed around PEAKMJD,DSTD
+ Dense neural network layer. ||  ||     TODO ||  ||     .. admonition:: Will not use flipout when n_mc>1 ||  ||         Note that this module uses the flipout estimator by default,DSTD
+ TODO: Batch translation,DSTD
+  ||     TODO: ||         - [ ] set this up as its own script ||         - [ ] find a way to generalize the Evaluator concept using the Predictor. ||  ||     Notes: ||         scores to beat: http:\/\/mi.eng.cam.ac.uk\/projects\/segnet\/tutorial.html ||         basic pixel_acc=82.8% class_acc=62.3% mean_iou=46.3% ||         best pixel_acc=88.6% class_acc=81.3% mean_iou=69.1% ||         Segnet (3.5K dataset) 86.8%,DSTD
+ We can better observe the process of model training with plots.,DSTD
+  ||  || Random Forest evaluation. ||  || Usage: ||   random_forest.py [--whole] [--male] [--threshold] [--leave-site-out] [<derivative> ...] ||   random_forest.py (-h | --help) ||  || Options: ||   -h --help           Show this screen ||   --whole             Run model for the whole dataset ||   --male              Run model for male subjects ||   --threshold         Run model for thresholded subjects ||   --leave-site-out    Prepare data using leave-site-out method ||   derivative          Derivatives to process ||  || TODO,DSTD
+ Indicate that data has been processed; Indices no longer needed,DSTD
+ TODO(luxuhui@xiaomi.com): read data from yml config,DSTD
+ seed is used to fix the RNG state when calling a model.,DSTD
+ copy over the needed information,DSTD
+ TODO: use InstanceNorm,DSTD
+ Todo: We might need a compressed sparse row graph (i.e. adjacency array),DSTD
+" \""Worker is cori. Overriding n_jobs to {}\"".format(n_cori_jobs))",DSTD
+ Compute neighbors of cells in grid. ||  ||     # TODO(rbharath): Do we need to handle periodic boundary conditions ||     properly here? ||     # TODO(rbharath): This doesn't handle boundaries well. We hard-code ||     # looking for n_nbr_cells neighbors,DSTD
+  ||     Ordinal encoder that ignores missing values encountered after training. ||     Workaround for issue: scikit-learn\/scikit-learn#11997 ||,DSTD
+ TODO: make fast_rcnn irrelevant,DSTD
+ TODO Make all of these sklearn estimators,DSTD
+ TODO spans are none when indices and token boundaries don't line up.,DSTD
+ TODO: Why re-processed that at each epoch ? Could precompute that,DSTD
+ convert structure to an array-based format for efficient processing,DSTD
+ specify the loss by what you really care,DSTD
+ TODO rectify pixel gap issue,DSTD
+ TODO: make fast_rcnn irrelevant,DSTD
+ FIXME: refactor and make less convoluted,DSTD
+ TODO(wakisaka): The main process is the same as _post_process(),DSTD
+ TODO(jonathanhuang): investigate whether all channels can be processed,DSTD
+ TODO: make the zero and one preds more user-friendly,DSTD
+ Workaround for Keras issue #1406,DSTD
+ TODO: deal with the same name but different groups?,DSTD
+ in the future: estimate the multiplicity (currently fixed 1.3\/2.3) based on A_obs.nnz,DSTD
+ [ToDo] If we do not use moving average on loss??,DSTD
+ FIXME: we should support dense matrices natively,DSTD
+ TODO: support multiple images per gpu (only minor changes are needed),DSTD
+ Generates a collection of bounding boxes to be used as anchors. ||  ||     TODO(rathodv): remove **params from argument list and make stride and ||       offsets (for multiple_grid_anchor_generator) constructor arguments. ||  ||     Args: ||       feature_map_shape_list: list of (height,DSTD
+ TODO Figure out how nested model config options will work,DSTD
+ TODO: we could use res.json() here to get a dict,DSTD
+ TODO: add random variation time?,DSTD
+ TODO: what to do with overlap in samples_prep (images_to_samples,DSTD
+ TODO with lemma,DSTD
+ TODO: n_random_starts does nothing currently - Fix that,DSTD
+ TODO: These probably need their own positioning!,DSTD
+ can't reshape; maybe a dynamically changing output,DSTD
+ TODO Modify options here,DSTD
+ TODO(ahundt) determine and fix the source of invalid polygons.,DSTD
+ TODO add these shocks to run_sim(),DSTD
+" XXX: not sure how to implement this. How do we measure \""performance\""?",DSTD
+ TODO: This is not correct! actual output should not modified instead expected output should be,DSTD
+ # FIXME: may not be able to reshape; dynamically changing output,DSTD
+ Clip to fix numeric imprecision (1e-09 = 0),DSTD
+ TODO add layer normalization 2018-05-31,DSTD
+ TODO: add context gating?,DSTD
+ FIXME: function parameters should not come in as different types if inference or not.,DSTD
+ TODO(ahundt) move squeeze steps into dataset api if possible,DSTD
+ TODO: ADD CUSTOM LOSS HERE,DSTD
+" TODO(nh2tran): change to \""project_weight\""",DSTD
+ TODO load best params from cross validation!,DSTD
+ TODO(chensun): Figure out if it is needed when image,DSTD
+ image data: no idea why pcolorfast flip image vertically,DSTD
+ TODO: Pre-processing image,DSTD
+ FIXME: adapt the image ext.,DSTD
+ Get the image for model evaluation. ||  ||   We preprocess the image simiarly to Slim TODO,DSTD
+ TODO: The following object should have a data store object as a sub,DSTD
+ TODO: use some type of rounding to number module 8 to increase probability that pyramid images will have the same resolution across input images,DSTD
+ perturb by a few m\/s - TODO: scale this with spectrum SNR!,DSTD
+ TODO: Sort the 3d objects in the scene from back to front (Z reducing),DSTD
+ TODO: Figure out if it is needed when image,DSTD
+ TODO:  Threshold setting of 0.7 is only an ad hoc setting to limit result size…,DSTD
+ TODO(ahundt) it seems set_trainable_layers in hypertree_model.py has a bug?,DSTD
+ FIXME: dplpstr2dplptree output is no longer a tree,DSTD
+ fix opencv bugs,DSTD
+ todo: consider saving lr and momentum for all param groups ?,DSTD
+ TODO switch of mask,DSTD
+ We should probably switch to using build_conv2d_layer and,DSTD
+ TODO: visualize the FC layer,DSTD
+ FIXME: use output layers' minmax,DSTD
+ FIXME. incorrect if embedding are not unit-normalized,DSTD
+  ||         1. permutes by length ||         2. groups by length ||         3. applies neural network ||         4. unpermutes output of neural network ||  ||     args: ||         fn: neural network function ||  ||     TODO: ||         make sure that outputs.extend does not mess up the Variable || TODO,DSTD
+ TODO(b\/65130867): Use image_id tensor once we fix the input data,DSTD
+ TODO: Create name_scopes (for better graph visualisation),DSTD
+ Define kernel size which is automatically reduced for small input. ||  ||   If the shape of the input images is unknown at graph construction time this ||   function assumes that the input images are is large enough. ||  ||   Args: ||     input_tensor: input tensor of size [batch_size]. todo,DSTD
+ TODO: add layers preprocessing method like,DSTD
+ TODO: does this retain previous activations?,DSTD
+ # FIXME: check to make sure it matches network structure,DSTD
+ TODO: extract to other patterns:,DSTD
+ TODO : Consider using return_gray when loading images,DSTD
+ TODO(nikita): The epsilon here isn't quite the same as in pytorch,DSTD
+ TODO: not sure if all banchmarks use dataset arg,DSTD
+ TODO(nikita): The epsilon here isn't quite the same as in pytorch,DSTD
+ TODO(wakisaka): global average pooling should use tf.reduce_mean(),DSTD
+ TODO: this could also be used on agent conditions,DSTD
+ Defines the default ResNet arg scope. ||  ||     TODO(gpapan): The batch-normalization related default values above are ||       appropriate for use in conjunction with the reference ResNet models ||       released at https:\/\/github.com\/KaimingHe\/deep-residual-networks. When ||       training ResNets from scratch,DSTD
+ TODO: Consider replacing with tf.contrib.filter_variables in,DSTD
+ TODO: we can probably just do a single linear run through the,DSTD
+ TODO: try plain residual layers,DSTD
+ Maybe load bidirectional encoder.,DSTD
+ HACK: Currently dont step on epochs for batchaware schedulers,DSTD
+ TODO(alemi): Register intermediate endpoints,DSTD
+ todo keepdims-->keep_dims \/tf.sqrt(tf.cast(num_units,DSTD
+ TODO(alemi): register intermediate endpoints,DSTD
+ TODO: Filter out boxes with zero area,DSTD
+ TODO: what's a good threshold here?,DSTD
+ TODO: handle random state,DSTD
+ TODO: Test to see if we can mix WCS and data on the same canvas,DSTD
+ TODO Remove assumption of fbank features,DSTD
+ TODO: Initialize with the clicks in buffer (when evaluation starts),DSTD
+ TODO: Filter out boxes with zero area,DSTD
+ TODO: Factor out cat_embedder to head,DSTD
+ FIXME: else statement should support img['meta'] integration as well.,DSTD
+ TODO: with tf.device('\/cpu:0'):,DSTD
+ TODO: handle agnostic mode and positive\/negative class,DSTD
+ TODO: Remove below once loss_functions are hashed in description files,DSTD
+ TODO(bhattad): Remove conditional after CMLE moves to TF 1.9,DSTD
+ TODO: Remove it when upgrade torch>=1.7,DSTD
+ TODO: zscore_dataset was removed,DSTD
+ TODO(lzc): Remove conditional after CMLE moves to TF 1.9,DSTD
+ TODO: Remove this if numpy insert is as fast as append,DSTD
+ TODO(kaftan): Remove conditional after CMLE moves to TF 1.10,DSTD
+ TODO(jrru): Remove mask_predictions from _post_process_box_classifier.,DSTD
+ TODO(bhattad): Remove conditional after CMLE moves to TF 1.9,DSTD
+ TODO(jrru): Remove mask_predictions from _post_process_box_classifier.,DSTD
+ TODO: remove this after the next NumPyro release,DSTD
+ 256 #w\/o relu at the end. with BN. #TODO Possibly also remove BN from last one,DSTD
+ TODO: use box_refinement() rather than duplicating the code here,DSTD
+ TODO: use box_refinement() rather than duplicating the code here,DSTD
+ TODO(ahundt) don't duplicate this in cornell_grasp_dataset_writer,DSTD
+ FIXME combine pad and pad_diff into one function,DSTD
+ workaround as pre-trained Caffe2 models from Detectron have all the same filename,DSTD
+ Simulate Data ||  || Simulate stochastic dynamic systems to model gene expression dynamics and || cause-effect data. ||  || TODO || ---- || Beta Version. The code will be reorganized soon. ||,DSTD
+ TODO: Make use of RandomDistortions class (end of this file) for complicated Distortions,DSTD
+ TODO: Could be made a torch nn.Module,DSTD
+ assume sampled loss is averaged. TODO:figure out better,DSTD
+ TODO: See if we can extract GPU vs CPU information from the PyTorch model,DSTD
+ workaround over non working dropout with None in noise_shape in tf.keras,DSTD
+ Hacky way to get loglog regplots,DSTD
+ TODO: Check validity of batchsize. Also avoid hard coding the thresh for not retriving from queue.,DSTD
+ TODO(lujiang): mentornet_inputs or mentor_inputs?,DSTD
+ @TODO: Write a more stable code to prevent for minimum and maximum repetition when the same value in the Histogram appears multiple times in a row. Example: image = numpy.zeros([10,DSTD
+ Rename a single column ||  ||     data : pandas DataFrame ||         Pandas dataframe with the column to be renamed. ||     col : str ||         Column to be renamed ||     rename_to : str ||         New name for the column to be renamed ||  ||     destructive : bool ||         todo: refactor this,DSTD
+ a bit hacky pseudo-eval on training data,DSTD
+ TODO update the data input by tf.data,DSTD
+ TODO this is dirty! break it into small functions and add numpy style docstring.,DSTD
+ Token hack,DSTD
+ a little bit hacky way to prevent in_place operation on cos_theta,DSTD
+ An ugly hack for my KFAC implementation.,DSTD
+ hack to initialize validation results,DSTD
+ hack for overestimating the variance for small groups,DSTD
+ There were strange issues with passing blob data_streams around,DSTD
+ TODO: make the rank parameter configurable,DSTD
+ !!! TODO: More intelligent substitution to create a suggestion,DSTD
+ TODO: move resizing to mold_image(),DSTD
+ TODO: Contribute these to MXNet?  For now it appears that registered activation types must be implemented in C++.,DSTD
+ This import is needed so that pickle knows about the class Ex5Job.,DSTD
+ re-create score_lookup with only the opponent's move acquired above,DSTD
+ Init NIR   TODO: make a proper way to read the NIR channel,DSTD
+ # FIXME: add new dataset-based checks:,DSTD
+ TODO FINISH THIS TESTS: make it so that the averaged value is not linear in the running variable,DSTD
+ TODO: Check how this handels multi-target regression,DSTD
+ TODO(ahundt) check that transform from end step to itself should be identity,DSTD
+ TODO(sugawarayu): Audit cpplint.py to see what places could be profitably,DSTD
+  Concat unit meshgrid onto the tensor. ||  ||     This is roughly equivalent to the input in uber's coordconv. ||     TODO(ahundt) concat_unit_meshgrid_np is untested. ||,DSTD
+ hack just for testing likelihood,DSTD
+ Classification Head for the transformer ||  ||     TODO: test this class.,DSTD
+ TODO(rathodv): Split test into two - with and without masks.,DSTD
+ Test the base behavior of ABC FeaturizerSet.,DSTD
+ to do: come up with faster way of testing fisher,DSTD
+ TODO: test this with invalid features.,DSTD
+ Regress method is pretty convoluted and slow,DSTD
+  ||            FIXME: For now gets smallest loss and goes back an order of magnitude,DSTD
+ TODO(tewalds): How should we handle more than 2 agents and the case where,DSTD
+  ||     Pickle big files safely,DSTD
+ This module is the doorway for other modules to access the information set by the active || :class:`hyperparameter_hunter.environment.Environment` TODO: configure hyperparameters for environment,DSTD
+ ''' ||         Compute the loss of the SSD model prediction against the ground truth. ||  ||         Arguments: ||             y_true (array): A Numpy array of shape `(batch_size,DSTD
+  ||         Implement the map to sequence part of the network mainly used to convert the ||         cnn feature map to sequence used in later stacked lstm layers ||         :param inputdata: NHWC tensor ||         :return: a NHWC tensor || fixme: add in multiple more parameter options,DSTD
+ FIXME need to take into account that the datasets need to be preprocessed before model is trained,DSTD
+ TODO: use sparse containers when available,DSTD
+fixme: init training buffers,DSTD
+ ToDo: Stop if details indicate that training failed.,DSTD
+fixme: Delete all unused data,DSTD
+ todo: if scatter: use proper markers!,DSTD
+ TODO: make fast_rcnn irrelevant,DSTD
+ Convert the ground truth to a more efficient format for what we need,DSTD
+ !@brief Classify image with learn clasifier and learned model ||  ||     Create a raster file todo: fix classification errors fixme: use different encoders,DSTD
+ TODO spans are none when indices and token boundaries don't line up.,DSTD
+ Fix unsupported image types using the Pillow.,DSTD
+  ||         Internal method for set metrics group level ||         TODO: if metrics group contains in two groups with different levels - this is undefined case ||  ||         :param level: parent group level ||,DSTD
+ TODO support continuous random effects with monte carlo,DSTD
+ Handle other array dtypes (TODO: do this properly),DSTD
+ TODO: add validator,DSTD
+ TODO(rathodv): Add some utilities to simplify the creation of a random forest classifier,DSTD
+ TODO: add pre-computed distance matrix,DSTD
+ TODO accept_sparse=['csr',DSTD
+ TODO(shlens): Only fixed_shape_resizer is currently supported for NASNet,DSTD
+ TODO: add numpy einsum here,DSTD
+ TODO: support more types of URNs,DSTD
+ Possibly add MaxPooling (will make it less sensitive to position in image).  Camera angle fixed,DSTD
+ ''' TODO: Support adding more features. ||   ''',DSTD
+ TODO support rectangular\/ND parameters,DSTD
+ TODO check audio sounds and make decisions,DSTD
+ TODO(bichen): add a random seed as parameter,DSTD
+ TODO(shlens): Only fixed_shape_resizer is currently supported for NASNet,DSTD
+ NOTE: A better workaround would be to use loss term `mean(y_pred)`,DSTD
+ TODO : add kernel regularizers and activity_regularizer to conv layers,DSTD
+ TODO: implement variant without input feeding,DSTD
+  ||         Args: ||             val_sequence: A mpunet.sequence object from which validation ||                           batches can be sampled via its __getitem__ method. ||             steps:        Numer of batches to sample from val_sequences in each ||                           validation epoch ||             logger:       An instance of a MultiPlanar Logger that prints to screen ||                           and\/or file ||             verbose:      Print progress to screen - OBS does not use Logger ||             ignore_class_zero: TODO ||,DSTD
+ TODO: if we set a weights vector with length != end - start ???,DSTD
+ TODO: Why does log-likelihood decrease sometimes?,DSTD
+ FIXME: einsum vectorization error for invariant_metric log in tf,DSTD
+ TODO: consider using jax.random and thus drawing new samples every time;,DSTD
+ TODO(rbharath): Still a bit of information leakage.,DSTD
+ TODO: key should be uniquified for queueing,DSTD
+ compile times on theano tend to be very high,DSTD
+"  ||         References: ||             \""Layer rotation: a surprisingly powerful indicator of generalization in deep networks?\"" - ||             https:\/\/arxiv.org\/pdf\/1806.01603.pdf ||  ||         TODO: ||             - [ ] Requires storing network initialization state in memory. ||             - [ ] Per layer rotation - cosine distance ||             - [ ] Technique to combine into single number? Average? Rotation of flattened network? ||",DSTD
+"  ||     Implementation of \""Training RNNs as Fast as CNNs\"" ||     :cite:`DBLP:journals\/corr\/abs-1709-02755` ||  ||     TODO: turn to pytorch's implementation when it is available. ||  ||     This implementation is adpoted from the author of the paper: ||     https:\/\/github.com\/taolei87\/sru\/blob\/master\/cuda_functional.py. ||  ||     Args: ||       input_size (int): input to model ||       hidden_size (int): hidden dimension ||       num_layers (int): number of layers ||       dropout (float): dropout to use (stacked) ||       rnn_dropout (float): dropout to use (recurrent) ||       bidirectional (bool): bidirectional ||       use_tanh (bool): activation ||       use_relu (bool): activation ||  ||",DSTD
+ TODO: allow named inputs too??,DSTD
+ TODO: implement forward_attention ||     TODO: location sensitive attention ||     TODO: implement attention windowing,DSTD
+ TODO: convert to new token-based system,DSTD
+ TODO      simple trainer in the correct order and leave this to advanced users?,DSTD
+ TODO: find the optimal block_length.,DSTD
+ TODO(rbharath): Unlike the DRAGONN implementation from which this,DSTD
+  ||         perform beam search ||         TODO: batched beam search ||,DSTD
+ TODO: Vectorized implementation here.,DSTD
+ TODO: figure out how to factorize bias grad,DSTD
+ TODO: find another way to detect non-differentiable elements in graph,DSTD
+ TODO: find a better\/general way of handling training dynamics,DSTD
+ TODO(b\/139530454): Use a library helper function once available like tf theano or torch,DSTD
+ TODO Figure out a better way to handle this weights close-to-zero case.,DSTD
+ TODO: Replace with ps.ls.model?,DSTD
+fixme 1. reconstr_loss seems doesn't do better than l2 loss.,DSTD
+  ||         Return a numpy array of HSIC's for each permutation. ||  ||         This is an implementation where kernel matrices are pre-computed. ||  ||         TODO: can be improved. ||,DSTD
+ test a process that runs and failed,NO TD
+ ignore,NO TD
+ process should abort,NO TD
+ user:password@host:/path notation,NO TD
+/*          * @param event the build event that is being logged.         */,NO TD
+ only track progress for files larger than 100kb in verbose mode,NO TD
+ Element doesn't handle text content,NO TD
+" send ""C0644 filesize filename"" where filename should not include '/'",NO TD
+ ClearCase items,NO TD
+/* Assign actual codes for the tables. */,NO TD
+ -reserved,NO TD
+/* size of the central directory   */,NO TD
+ gcj doesn't support an extension dir (-extdir)  so we'll emulate it for compatibility and convenience.,NO TD
+ At this point we are probably in failure mode but  try to use the bare URI as a last gasp,NO TD
+ -unreserved,NO TD
+" DataType can have a ""no arg"" constructor or take a single  Project argument.",NO TD
+ -out,NO TD
+ b may be 0 for success           1 for error           2 for fatal error,NO TD
+ Not whitespace - fail,NO TD
+ Fall tru,NO TD
+ -ndata,NO TD
+ C0644 filesize filename - header for a regular file  T time 0 time 0\n - present if perserve time.  D directory - this is the header for a directory.,NO TD
+ -version,NO TD
+wince isn't really 9x but crippled enough to be a muchness. Ant doesnt run on CE anyway.,NO TD
+ -nwarn,NO TD
+ if a label has been supplied and it is a revision label use the raw  the view as the snapshot,NO TD
+ Class doesn't have a String constructor but a decent factory method,NO TD
+/* total number of entries in      */,NO TD
+ Check for \r \r\n and \r\r\n  Regard \r\r not followed by \n as two lines,NO TD
+  Success!  The xml-commons resolver library is  available so use it. ,NO TD
+ it is a new file  set the revision but not the prevrevision,NO TD
+catch script/ant mismatch with a meaningful message we could ignore it but there are likely to be other version problems so we stamp down on the configuration now,NO TD
+ don't know the type should throw exception instead?,NO TD
+ char and Character get special treatment - take the first character,NO TD
+ do nothing,NO TD
+ scan base dirs to build up compile lists only if a  specific classname is not given,NO TD
+ write a Properties file in each directory:,NO TD
+ **   simple name specified   == parent dir + name,NO TD
+ requires version 2 as we are going to store length info  in the data descriptor,NO TD
+ the test runner that wrap the dummy formatter that interests us,NO TD
+ CheckStyle:VisibilityModifier OFF - bc,NO TD
+ First try with Project.,NO TD
+  The ResourceLocation may specify a relative path for its  location attribute.  This is resolved using the appropriate  base. ,NO TD
+ Can return null to represent the bootstrap class loader.  see API docs of Class.getClassLoader.,NO TD
+/* start of the central directory  */,NO TD
+private static final int GET_ENTRY = 0;,NO TD
+ file comment,NO TD
+There were no revisions in this changelog entry so lets move onto next file,NO TD
+same date if dest timestamp is within granularity of the srcfile,NO TD
+" must be ""add""",NO TD
+ ----------------------------------------------------------  somewhat arbitrary choices that are quite common for shared  installations  -----------------------------------------------------------,NO TD
+ EnumeratedAttributes have their own helper class,NO TD
+ selectors are implicitly ANDed in DirectoryScanner.  To  revert their logic we wrap them into a <none> selector  instead.,NO TD
+ first off make sure that we've got a srcdir and destdir,NO TD
+ ZIPs store time with a granularity of 2 seconds round up,NO TD
+ viewpath,NO TD
+ ------------------------------------------------------    Helper methods - should be in BuildFileTest  -----------------------------------------------------,NO TD
+ build the command line from what we got the format is  cleartool lsco [options...] [viewpath ...]  as specified in the CLEARTOOL.EXE help,NO TD
+ Check if list of files to check has been specified,NO TD
+ testNoCrash is the test invoked by the captureToSummary's junit task,NO TD
+ if the two substrings are longer than the original then name  contains address - so reset the name to null,NO TD
+default,NO TD
+ log options used,NO TD
+ dummy formatter just to catch the error,NO TD
+ we don't expect to find this,NO TD
+ resolve relative paths through Project,NO TD
+patch file into the fileset,NO TD
+ type value,NO TD
+ bit3 set to signal we use a data descriptor,NO TD
+underscores go in front of invalid start chars,NO TD
+ use to scan own archive,NO TD
+/** * Tests the {@link XSLTProcess} task. * XXX merge with {@link StyleTest}? * @since Ant 1.5 */,NO TD
+ it is a modified file  set the revision and the prevrevision,NO TD
+/*             * throw in drive letters             */,NO TD
+set our parent dir,NO TD
+/*             * promised to eliminate consecutive slashes after drive letter.             */,NO TD
+ -cfile,NO TD
+ avoid multiple configurations,NO TD
+/** Version to use for addXXX and addConfiguredXXX */,NO TD
+ Compare the destination with the temp file,NO TD
+ SMTP auth only allowed with MIME mail,NO TD
+ All three specified and all three exist -> true,NO TD
+ an address to send from is required,NO TD
+ File is not found in specified filepath,NO TD
+ set the character set if not done already (and required),NO TD
+ 2 is != 0 and even so it is considered  failure on any platform currently supported  by Execute#isFailure.,NO TD
+ Eof has been reached,NO TD
+decide whether to copy the existing arg set or build a new one from the list of all args excluding the special operations that only we handle,NO TD
+ type,NO TD
+ wait for TIME_OUT/2 there should be about TIME_OUT/2 ms remaining before timeout,NO TD
+/*                fragments.addElement(value.substring(pos + 1 pos + 2));                prev = pos + 2;                */,NO TD
+ Well no matching constructor.,NO TD
+check that dir and src are incompatible,NO TD
+ OK try without.,NO TD
+ Set up a VSSHistory task,NO TD
+ -ptime,NO TD
+ Throws EjbcException if unsuccessful,NO TD
+ tests one the file object,NO TD
+ Make a limited attempt to extract a sanitized name and email address  Algorithm based on the one found in Ant's MailMessage.java,NO TD
+" If the file being added is META-INF/application.xml we  warn if it's not the one specified in the ""appxml""  attribute - or if it's being added twice meaning the same  file is specified by the ""appxml"" attribute and in a  <fileset> element.",NO TD
+ if at eolcount == 0 and trailing characters of string  are CTRL-Zs set eofStr,NO TD
+ We have extra elements,NO TD
+ -keep,NO TD
+ keep searching for the first ^Z,NO TD
+ -identical,NO TD
+ conversion to URL via FileUtils like in XMLResultAggregator not as suggested in the bug report,NO TD
+ Trailing characters are ^Zs  Construct new line and eofStr,NO TD
+ Check for required attributes,NO TD
+ DO NOTHING,NO TD
+ permissible values for compression attribute,NO TD
+ build the command line from what we got. the format is  cleartool mkattr [options...] [viewpath ...]  as specified in the CLEARTOOL help,NO TD
+ ================  testcases for the cache implementations  ================,NO TD
+ does the selection,NO TD
+ -replace,NO TD
+ should be full moon,NO TD
+ ADD or ADD_CONFIGURED,NO TD
+ 60s  a further 30s,NO TD
+ For directories:,NO TD
+ -recurse,NO TD
+ Renamed version of original file if it exists,NO TD
+ order of headers cannot be guaranteed,NO TD
+ now stop the watchdog.,NO TD
+ the method called to set the attribute,NO TD
+ Add the files found in groupfileset to fileset,NO TD
+ can also handle empty archives,NO TD
+ maintain a sorted list of targets,NO TD
+ quick exit if the target is up to date,NO TD
+ Choosing character set of the mail message  First: looking it from MimeType,NO TD
+ Next: looking if charset having explicit definition,NO TD
+ Scanner to find our inputs  list of files to process,NO TD
+ if src and dest dirs are the same require the extension  to be set so we don't stomp every file.  One could still  include a file with the same extension but ....,NO TD
+ Ignore,NO TD
+ CheckStyle:VisibilityModifier OFF - bc  CheckStyle:MemberNameCheck OFF - bc,NO TD
+couldnt use the xerces or jaxp calls,NO TD
+enable schema setFeature(XmlConstants.FEATURE_VALIDATION false);,NO TD
+ first CR in this line,NO TD
+if this is our context we assume there must be something here:,NO TD
+ wait for the thread to die should be the end of the process,NO TD
+ we are recreating the archive need all resources,NO TD
+ Windows quoting of the value,NO TD
+ Mac-style linebreak or EOF (or both),NO TD
+ build the command line from what we got. the format is  cleartool mkelem [options...] [viewpath ...]  as specified in the CLEARTOOL.EXE help,NO TD
+ variables to hold arguments,NO TD
+ impossible as getMethods should only return public methods,NO TD
+ copy the source and support files,NO TD
+ boolean and Boolean get special treatment because we  have a nice method in Project,NO TD
+ create an array of strings for input to the compiler: one array  comes from the compile options the other from the compileList,NO TD
+/*         * Should choose either -ci or -nco.         */,NO TD
+ -nco,NO TD
+ 'sync' is needed - otherwise 2 threads can load the same class  twice resulting in LinkageError: duplicated class definition.  findLoadedClass avoids that but without sync it won't work.,NO TD
+ make sure we aren't going to get the path separator next,NO TD
+ error level logging for compiler errors,NO TD
+ Execute the top-level target,NO TD
+ need to reset java.class.path property  since the NetRexx compiler has no option for the classpath,NO TD
+ The current character is always emitted.,NO TD
+ Check the command line options,NO TD
+ if at EOF with no characters in the buffer return EOF,NO TD
+ ant task properties  defaults  CheckStyle:VisibilityModifier OFF - bc,NO TD
+ set in/excludes to reasonable defaults if needed:,NO TD
+ delete a bogus ZIP file (but only if it's not the original one),NO TD
+ if parent is null then we are at the root of the fs  complain that we can't find the build file.,NO TD
+/*<URL>*/,NO TD
+ object selector,NO TD
+ ignore path elements which are invalid  relative to the project,NO TD
+ In this case using java.util.zip will not work  because it does not permit a zero-entry archive.  Must create it manually.,NO TD
+ record data about the last scanned resource,NO TD
+ build the command line from what we got the format is  cleartool uncheckout [options...] [viewpath ...]  as specified in the CLEARTOOL.EXE help,NO TD
+ Not significant for the class loader.,NO TD
+ Cf. PKZIP specification.,NO TD
+ignore,NO TD
+ -master,NO TD
+ Initialize the globalFileSet's project,NO TD
+"/*     * I'm not fond of this pattern: ""sub-method expected to throw     * task-cancelling exceptions"".  It feels too much like programming     * for side-effects to me...     */",NO TD
+ don't have to check for public since  getMethod finds public method only.  don't have to check for abstract since then  taskClass would be abstract too.,NO TD
+ overriding target from imported buildfile is allowed,NO TD
+ end of try-catch,NO TD
+ sorted by newest Kaffe version first,NO TD
+ remainder zeros,NO TD
+ first build exception,NO TD
+ -eltype,NO TD
+ Not been visited,NO TD
+ Create the stream pumpers to forward listcab's stdout and stderr to the log  note: listcab is an interactive program and issues prompts for every new line.        Therefore make it show only with verbose logging turned on.,NO TD
+ Create.,NO TD
+ Attributes,NO TD
+ the buildfile to use,NO TD
+not included do nothing,NO TD
+ process should be dead and well finished,NO TD
+ Mac,NO TD
+ Already present,NO TD
+empty,NO TD
+ initialResources is not empty,NO TD
+ avoid double scanning of directories can only happen in fast mode,NO TD
+ Default to string type  which means do nothing,NO TD
+ higher derived,NO TD
+ -----------------------------------------   Predefined filters  -----------------------------------------,NO TD
+ If only value is specified the property is set to it  regardless of its previous value.,NO TD
+ -------------------- Common properties  --------------------  The following properties are required by import ( and other tasks  that read build files using ProjectHelper ).,NO TD
+ If value and default are both specified and the property  did not exist in the property file the property is set  to default.,NO TD
+ collect filesets to pass them to getResourcesToAdd,NO TD
+ check to what is in the classname,NO TD
+/*             * Bad luck.             *             * There are resources in the filesets that make the             * archive out of date but not in the non-fileset             * resources. We need to rescan the non-FileSets to grab             * all of them now.             */,NO TD
+ no emptyBehavior handling since the FileSet version  will take care of it.,NO TD
+ may be altered in validate,NO TD
+calculate our destination directory; it is either the destDir attribute or the base dir of the fileset (for in situ updates),NO TD
+ we will return initialResources anyway no reason  to scan further.,NO TD
+ Error messages,NO TD
+not a known type,NO TD
+no point in setting a message,NO TD
+ If filename does not match the To attribute of the mapper  then filter it out of the files we are considering,NO TD
+ WARN: Don't use the StreamSource(File) ctor. It won't work with  xalan prior to 2.2 because of systemid bugs.,NO TD
+/* disk number start               */,NO TD
+ -rmall -force,NO TD
+ byte - byte compare,NO TD
+ specify output in UTF8 otherwise accented characters will blow  up everything,NO TD
+"/* Had to make two separate commands here because if a space is               inserted between the flag and the value it is treated as a               Windows filename with a space and it is enclosed in double               quotes (""). This breaks clearcase.            */",NO TD
+ print the stacktrace in the build file it is always useful...  better have too much info than not enough.,NO TD
+ may be on a case insensitive file system.  We want  the results to show what's really on the disk so  we need to double check.,NO TD
+ build the command line from what we got. the format is  cleartool checkin [options...] [viewpath ...]  as specified in the CLEARTOOL.EXE help,NO TD
+ put back the original security manager The following will never eval to true. (PD),NO TD
+ all the names are the same: check if the class path of the loader  is the same,NO TD
+"/* For debugging purposes uncomment:        org.w3c.dom.Comment s = doc.createComment(""stack="" + threadStack);        buildElement.element.appendChild(s);         */",NO TD
+ find the line breaks and pass other chars through in blocks,NO TD
+ don't add directories we've already added.  no warning if we try it is harmless in and of itself,NO TD
+ -------------------------------------------------- BuildLogger interface,NO TD
+" <path> swallows the basedir it seems assertTrue(!getProject().resolveFile(""A"").exists());",NO TD
+ Use a stream so that you can close it yourself quickly  and avoid keeping the handle until the object is garbaged.  (always keep control) otherwise you won't be able to delete  the file quickly on windows.,NO TD
+ Returns list of EJBs for processing,NO TD
+" A ""refid"" attribute for a node within a Path object.",NO TD
+ Ignore Exception,NO TD
+ type-kind:type-name,NO TD
+ -ignore,NO TD
+ JUnit 4 does not distinguish between errors and failures  even in the JUnit 3 adapter.  So we need to help it a bit to retain compatibility for JUnit 3 tests.,NO TD
+ get the fileset and its basedir,NO TD
+ Shouldn't happen,NO TD
+ Return the type-selector,NO TD
+/*          Now another magic 48-bit number 0x177245385090 to          indicate the end of the last block.  (sqrt(pi) if          you want to know.  I did want to use e but it contains          too much repetition -- 27 18 28 18 28 46 -- for me          to feel statistically comfortable.  Call me paranoid.)        */,NO TD
+ LF is always end of line (i.e. CRLF or single LF),NO TD
+ -full,NO TD
+sort the list. Makes SCM and manual diffs easier.,NO TD
+ create XML document,NO TD
+ -incremental,NO TD
+ CR without LF - send buffer then add char,NO TD
+ -nlabel,NO TD
+ implementation of org.apache.tools.ant.taskdefs.ExecuteStreamHandler interface,NO TD
+ baseline_root_name,NO TD
+ add into buffer,NO TD
+/*         * If configured to not care about whether the element is         * already checked out to the current view.         * Then check to see if it is checked out.         */,NO TD
+ info text  list of files  expected result  result,NO TD
+ call a target,NO TD
+ just append beginToken and search further,NO TD
+ java.home is bogus,NO TD
+ Set up a SOSGet task,NO TD
+ Try a silly case,NO TD
+ either end of buffer or a line separator char,NO TD
+/*              Now ftab contains the first loc of every small bucket.              Calculate the running order from smallest to largest              big bucket.        */,NO TD
+  =====================  helper methods and classes  ====================,NO TD
+ =====================  scenario tests  =====================,NO TD
+ ==============  testcases for the algorithm implementations  ==============,NO TD
+$NON-NLS-1$,NO TD
+ nearly all times v is zero 4 in most other cases,NO TD
+ check adapter,NO TD
+ finally create the Huffman tables,NO TD
+ Pattern and string do not have the same size,NO TD
+ '**/**' situation so skip one,NO TD
+ build the command line from what we got the format is  ss Label VSS items [-C] [-H] [-I-] [-Llabel] [-N] [-O] [-V] [-Y] [-?]  as specified in the SS.EXE help,NO TD
+ build the command line from what we got the format is  cleartool lock [options...]  as specified in the CLEARTOOL.EXE help,NO TD
+/  GET/SET methods.  Setters of course are where ant user passes in values. /,NO TD
+now we instantiate,NO TD
+/  GET/SET methods.  Setters of course are where ant user passes in values. /,NO TD
+ either use default path or root local mapping  which is now embedded in the root folder,NO TD
+ Write the contents to our master list of links  This method assumes that all links are defined in  terms of absolute paths or paths relative to the  working directory:,NO TD
+ Mac does \n\r but that's tough to distinguish from Windows \r\n\r\n.  Don't tackle that problem right now.,NO TD
+ ss.exe exits with '100' when files have been skipped  so we have to ignore the failure,NO TD
+ -ordinary,NO TD
+ For debugging,NO TD
+set up project references.,NO TD
+ -log logname,NO TD
+ once we find a folder that isn't in the repository  we know we can add it.,NO TD
+ If the file doesn't pass the include/exclude tests skip it.,NO TD
+ -graphical,NO TD
+ -overwrite,NO TD
+/* crc-32                          */,NO TD
+ Set up a SOSCheckin task,NO TD
+" The readers return -1 if they end. So simply read the ""prepend""  after that the ""content"" and at the end the ""append"" file.",NO TD
+/** Our current message output status. Follows Project.MSG_XXX. */,NO TD
+ duplicate equal to add so we continue,NO TD
+/*                     if the permission was not explicitly granted or revoked                     the original security manager will do its work                    */,NO TD
+ -global,NO TD
+ -rename,NO TD
+ initializes extra data to an empty byte array,NO TD
+ -obsolete,NO TD
+ Fall Through,NO TD
+ -noverwrite,NO TD
+ we look through the source path elements. If the element is a dir  we look for the file. If it is a zip we look for the zip entry.  This isn't normal for source paths but we get it for free,NO TD
+/* null */,NO TD
+/* local file header signature     */,NO TD
+ set user-defined properties,NO TD
+ set Java built-in properties separately  b/c we won't inherit them.,NO TD
+ -ctime,NO TD
+/*               If verbosity is MSG_VERBOSE that mean we are doing               regular logging (backwards as that sounds).  In that               case we want to print one message about deleting the               top of the directory tree.  Otherwise the removeDir               method will handle messages for _all_ directories.             */,NO TD
+/* Methods below all add specific selectors */,NO TD
+ expect the worst,NO TD
+ set all properties from calling project,NO TD
+now any inner assertions,NO TD
+ -pbranch,NO TD
+append the ... suffix if not there already,NO TD
+ File[] filesInDir = directory.listFiles();,NO TD
+convert to lower case in the English locale,NO TD
+ has been set explicitly,NO TD
+" Strip off drive letters!  REVIEW Would a better check be ""(File.separator == '\')""?",NO TD
+ -shared,NO TD
+ class found but restricted name; this is  actually the case we're looking for in JDK 1.3+  so catch the exception and return,NO TD
+this is the list of lu,NO TD
+" Since we ""look ahead"" before adding there's one last env var.",NO TD
+mark for a rebuild if the dest file is newer,NO TD
+ Chunk part of previous env var (UNIX env vars can  contain embedded new lines).,NO TD
+but if no dest is specified compare source to source,NO TD
+ On OpenVMS Runtime#exec() doesn't support the environment array  so we only return the new values which then will be set in  the generated DCL script inheriting the parent process environment,NO TD
+ Mono 1.0's wsdl doesn't deal with absolute paths,NO TD
+ If this TransformOperation has DrawOperation children  then Rotate the first child and return.,NO TD
+add in any extra files. this is an error in mono but we do not warn on it as they may fix that outside the ant build cycle.,NO TD
+noop default encoding used,NO TD
+if by any means the destfile and source match,NO TD
+/*         * Writes the command into a temporary DCL script and returns the         * corresponding File object.  The script will be deleted on exit.         * @param cmd the command line to execute as an array of strings.         * @param env the environment to set as an array of strings.         * @return the command File.         * @throws IOException if errors are encountered creating the file.         */,NO TD
+mark for a rebuild if we are newer,NO TD
+ add the single group arguments  Javadoc 1.2 rules:    Multiple -group args allowed.    Each arg includes 3 strings: -group [name] [packagelist].    Elements in [packagelist] are colon-delimited.    An element in [packagelist] may end with the * wildcard.,NO TD
+conditionally compile,NO TD
+ ensure that parent dir of dest file exists!,NO TD
+ Set up a Timestamp,NO TD
+ for each sourcePath entry add a directoryset with includes  taken from packagenames attribute and nested package  elements and excludes taken from excludepackages attribute  and nested excludepackage elements,NO TD
+we check the presence of signatures on lazy signing,NO TD
+ if it's a non source file copy it if a later date than the  dest  if it's a source file see if the destination class file  needs to be recreated via compilation,NO TD
+ Errors,NO TD
+ ------------------------------------------------------    Helper methods  -----------------------------------------------------,NO TD
+bail on no references,NO TD
+"/*         * In Ant 1.1 <chmod dir=""foo"" /> means change the permissions         * of directory foo not anything inside of it.  This is the case the         * second branch of the if statement below catches for backwards         * compatibility.         */",NO TD
+if they are different the timestamps are used,NO TD
+" For -sourcepath use the ""sourcepath"" value if present.  Otherwise default to the ""srcdir"" value.",NO TD
+demand create pathlist,NO TD
+" SQL defines ""--"" as a comment to EOL  and in Oracle it may contain a hint  so we cannot just remove it instead we must end it",NO TD
+bail on no references listed,NO TD
+ create intermediary directories - sometimes zip don't add them,NO TD
+ Load the property files specified by -propertyfile,NO TD
+hand down,NO TD
+just log this,NO TD
+/* for historical and performance reasons we have to do               things in a rather complex way.               (1) Move is optimized to move directories if a fileset               has been included completely therefore FileSets need a               special treatment.  This is also required to support               the failOnError semantice (skip filesets with broken               basedir but handle the remaining collections).               (2) We carry around a few protected methods that work               on basedirs and arrays of names.  To optimize stuff all               resources with the same basedir get collected in               separate lists and then each list is handled in one go.            */,NO TD
+loop through all definitions,NO TD
+ we have started to (over)write dest but failed.  Try to delete the garbage we'd otherwise leave  behind.,NO TD
+set up response file options,NO TD
+not modified so no file download. just return instead and trace out something so the user doesn't think that the download happened when it didn't,NO TD
+ fileutils,NO TD
+ Ignore exception,NO TD
+if the refs are out of date force a build.,NO TD
+ we have already started reading this section  this line is the first attribute. set it and then  let the normal read handle the rest,NO TD
+ classpath attributes go into a vector,NO TD
+ Get today's date,NO TD
+ scan source and dest dirs to build up both copy lists and  compile lists         scanDir(srcDir destDir);,NO TD
+ ensure that -D properties take precedence,NO TD
+ --- Fields --,NO TD
+/*             * Many system have been reported to get into trouble with             * long command lines - no not only Windows ;-).             *             * POSIX seems to define a lower limit of 4k so use a temporary             * file if the total length of the command line exceeds this limit.             */,NO TD
+add the source file,NO TD
+ Setup the apt executable,NO TD
+now run,NO TD
+ Create an instance of the compiler redirecting output to  the project log,NO TD
+ Error generated during parsing,NO TD
+ start() would throw IllegalThreadStateException from  ThreadGroup.add if it were destroyed,NO TD
+forcibly delete the output file in case of trouble,NO TD
+ kjc-1.5A doesn't support -encoding option now.  but it will be supported near the feature.,NO TD
+then rethrow the exception,NO TD
+ add dest dir to classpath so that previously compiled and  untouched classes are on classpath,NO TD
+ check if the target file exists in the current directory,NO TD
+"On VMS platform we need to create a special java options file containing the arguments and classpath for the javac command. The special file is supported by the ""-V"" switch on the VMS JVM.",NO TD
+ Parser with specified options can't be built,NO TD
+must keep for subclass BC though unused:  CheckStyle:ConstantNameCheck OFF - bc,NO TD
+ I/O error,NO TD
+ Set up a VSSCheckIn task,NO TD
+ Set the prefix for this node to include its tag name.,NO TD
+ there is a bootclasspath stated.  By default the  includeJavaRuntime is false.  If the user has stated a  bootclasspath and said to include the java runtime it's on  their head!,NO TD
+ Pass the container to the processing of this node,NO TD
+ change to parent directory,NO TD
+ The date format is using a - format since 1.12.9 so we have:  1.12.9-: 'date: YYYY/mm/dd HH:mm:ss;  author: name;'  1.12.9+: 'date: YYYY-mm-dd HH:mm:ss Z;  author: name',NO TD
+ now iterate through children.,NO TD
+ hasCR is still true (for the second one),NO TD
+ CheckStyle:ConstantNameCheck OFF - bc,NO TD
+ convert from ascii back to native  encoding to convert to/from  Where to find input files  Where to put output files  Extension of output files if different,NO TD
+ -branch,NO TD
+" Specified class is """" -> can not exist",NO TD
+ refresh our file handle,NO TD
+ CheckStyle:MethodNameCheck OFF - bc,NO TD
+ We need character encoding aware printing here.  So using PrintWriter over OutputStreamWriter instead of PrintStream,NO TD
+ The value of an id attribute of this node.,NO TD
+" entries are of the form: CVS 1.11  File module/filename is new; current revision 1.1 CVS 1.11.9  File module/filename is new; cvstag_2003_11_03_2  revision 1.1  or  File module/filename changed from revision 1.4 to 1.6  or  File module/filename is removed; not included in  release tag SKINLF_12 CVS 1.11.9  File testantoine/antoine.bat is removed; TESTANTOINE_1 revision 1.1.1.1   get rid of 'File module/""",NO TD
+ CheckStyle:MemberNameCheck OFF - bc,NO TD
+ Set up a VSSCheckOut task,NO TD
+ TODO,TD
+ TODO: move final suffix\/prefix construction logic into config builder,TD
+ TODO could abstract code block L225 file_constructor,TD
+ TODO(KGF): should \/tigress\/FRNN\/shot_lists\/ be organized into subdirs,TD
+ TODO: refactor!,TD
+ It would be better to have rank 0 save the model and all the ranks read it,TD
+ #this flush method is needed for python 3 compatibility.,TD
+ FIXME create a Literal type for sampling,TD
+ TODO: really?,TD
+ hack: dont override patience,TD
+ TODO(b\/121187817): Consolidate with dm_control\/suite\/explore.py,TD
+ todo: this is inefficient,TD
+ - we can do better,TD
+ TODO(cpaxton): this is a duplicate,TD
+ TODO(wakisaka): move to somewhere.,TD
+ # TODO,TD
+ noinspection PyUnusedLocal,TD
+ TODO: implement,TD
+ While storing entire subsets isn't super efficient,TD
+ TODO \u8FD9\u4E2A\u6982\u7387\u6700\u597D\u4F7F\u7528\u6210\u4EA4\u91CF\u5F53\u65E5\u6765\u8BA1\u7B97\u51FA\u6765,TD
+ TODO this may not be necessarily true going forward,TD
+ TODO: possibly handle this as location,TD
+ True is better,TD
+ TODO: rename,TD
+ TODO(unknown): if delimiter is not None here,TD
+ TODO,TD
+ # FIXME: and same,TD
+ XXX: to-do if all the ivals have err=inf,TD
+ FIXME: Broken\/Ineffective code.,TD
+ TODO,TD
+ TODO: This method pulls in all the implementation dependencies into core.,TD
+ We decided to implement each method call explicitely in both,TD
+ TODO change file path,TD
+ TODO: shamelessly copied from `main.py`; should become a separate,TD
+ this flush method is needed for python 3 compatibility.,TD
+ This method is kind of ugly,TD
+ Copy data to GPU if needed,TD
+ TODO(KGF): rename. Unlike JET,TD
+ Pixel format: Fix 0xFF: 8 bit,TD
+ -- Options for todo extension ----------------------------------------------,TD
+ TODO(hwang): sleep appropriate period of time make sure to tune this parameter,TD
+ TODO (johngiorgi): In future,TD
+ Load function from str if needed.,TD
+ If extensions (or modules to document with autodoc) are in another directory,TD
+ data directories (created if needed),TD
+ If extensions (or modules to document with autodoc) are in another directory,TD
+ If extensions (or modules to document with autodoc) are in another directory,TD
+ If extensions (or modules to document with autodoc) are in another,TD
+ So it is better to specify the GPU id outside the program.,TD
+ Hacky tool to convert file system layout of MCG boxes downloaded from || http:\/\/www.eecs.berkeley.edu\/Research\/Projects\/CS\/vision\/grouping\/mcg\/ || so that it's consistent with those computed by Jan Hosang (see: || http:\/\/www.mpi-inf.mpg.de\/departments\/computer-vision-and-multimodal- ||   computing\/research\/object-recognition-and-scene-understanding\/how- ||   good-are-detection-proposals-really\/) ||  || NB: Boxes from the MCG website are in (y1,TD
+ try using a GRU instead,TD
+ TODO: Add informative caption,TD
+ TODO: concat proposals list and rois_list,TD
+" TODO: Merge \""__hh\"" attrs above into a single dict of attributes for initializers",TD
+ Use a stable sorting algorithm so that when alpha is fixed,TD
+ type checking this function is a mess; it needs a better fix,TD
+ TODO: investigate whether removing code branching improves performance.,TD
+ TODO: Could be more efficient by checking is_sublist for,TD
+ TODO: Fix seg fault when extent is not (0,TD
+ fix unknown flow,TD
+ TODO check terminal width,TD
+ TODO: get duration from msg (via API),TD
+ #TODO ADD ONE e.g.[2,TD
+ TODO do the check,TD
+ TODO: add checks to confirm all necessary files are present and readable,TD
+ TODO: check this is not negative or zero,TD
+ TODO: consider merging added values,TD
+ TODO better way to check if file has changed,TD
+ TODO: add this check back in once,TD
+ TODO: Check hardware info here if different from creation time,TD
+ TODO(nina): Check if the discountinuity at 0 is expected.,TD
+ TODO: reverse the logic here,TD
+ TODO: return better info,TD
+ TODO: do we need to set 'pri_call' on this?,TD
+ TODO(rbg): it's annoying that sometimes I have extra info before,TD
+ (this is less efficient for small trees but much more efficient,TD
+ TODO set a better value for this,TD
+" TODO(KGF): set \""mpi_initialized\"" global bool flag?",TD
+ TODO: allocate this more intelligently,TD
+ TODO general definitions,TD
+ TODO(petershaw): Consider throwing exception if we never find from clause,TD
+ TODO(KGF): consider using importlib.util.find_spec() instead (Py>3.4),TD
+ TODO: Figure out where to get dividend information if it's not calculated into the price.,TD
+ TODO: https:\/\/github.com\/fastai\/fastai\/blob\/c7df6a5948bdaa474f095bf8a36d75dbc1ee8e6a\/fastai\/callbacks\/one_cycle.py,TD
+" For some reason this version works way better than the \""right\""",TD
+ TODO(ahundt) generate this value based on GetHomeJointSpace.,TD
+ TODO this should give unique names to the time series files,TD
+ TODO append input as well,TD
+ implemented in a consistent way.,TD
+ Why should we remove checkpoints?,TD
+ TODO(albert): test not passing,TD
+ TODO: Handle base64 data another way?,TD
+ TODO: Remove extra computation shared with yolo_head.,TD
+ TODO: or change it to match the reste of the implementation,TD
+ word index hack. see issue,TD
+ TODO Adjust API spec,TD
+ XXX: don't know which way would be the best,TD
+ nv by ns dot ns by m -> nv by m  # TODO: Change to CSC for speed?,TD
+ TODO(isaprykin): Query the system configuration to choose modes other,TD
+ TODO better resize,TD
+ TODO: figure out why this is bad,TD
+ TODO(wakisaka): Remove the commnet-out when support semantic segmentation.,TD
+ TODO: break up?,TD
+ An ugly hack to silence non-prefixed logging messages,TD
+ TODO: If len > 4,TD
+ Fix random seed for tests,TD
+ TODO: Think about maintaining whitespace variations,TD
+ TODO: why are we showing indices [1:-1] for lst_device_ids?,TD
+ TODO: Enable as a recovery mechanism,TD
+ MomentsAccountant. Consider to revise the API to avoid the unused,TD
+ XXX Adapt lemonade to help us identify what the allowed,TD
+ TODO: generalize to other modification sites,TD
+ @TODO refactor with maybe_recursive_call (?),TD
+ FIXME: consider buffering this so we don't read the whole string at once,TD
+ TODO: Use waiter class,TD
+ TODO: Use waiter class,TD
+ todo:catch repeating parenthesis,TD
+ TODO: if unseen_classes are already selected,TD
+  || Author: Dr. Mohamed Amine Bouhlel <mbouhlel@umich.edu> ||         Dr. Nathalie.bartoli      <nathalie@onera.fr> ||  || This package is distributed under New BSD license. ||  || TO DO: || - define outputs['sol'] = self.sol ||,TD
+ TODO(ahundt) look back in the history and figure out when\/how converted and the return should be used,TD
+ TODO: handle locked \/var\/lib\/dpkg\/lock,TD
+ TODO: configure nodes used for authentication,TD
+ When this TODO is tackled,TD
+ Obsolete loading design. @Todo,TD
+ TODO: We can delete anything older than 90 days at this point.,TD
+ TODO(rbharath): This is now simple enough that we should probably get rid of,TD
+ TODO: Mark as deprecated and emit warning,TD
+ TODO(ahundt) currently importing moviepy prevents python from exiting. Once this is resolved remove the import below.,TD
+ FIXME Time measurements can be abandoned in the future,TD
+ TODO(ahundt) remove direct flags dependency & parameterize,TD
+ TODO: remove in about 6 months (end of 2018),TD
+ TODO(cpaxton): remove pygame from this,TD
+ TODO(b\/64848083) Remove once uid bug is fixed,TD
+ TODO: will be removed in a future update in favor of augmentation,TD
+ TODO: remove this when stop testing,TD
+ TODO remove check once v 0.7 is pip installable,TD
+ TODO(KGF): deduplicate with parent class fn. Only difference:,TD
+ FIXME,TD
+ TODO:,TD
+ XXX Kludgey mess.  Please reorganize.,TD
+ switch to better variable creation scheme.,TD
+ XXX these look terrible monkey patching hacks :(,TD
+" hacky platform-agnostic way to say \""if integer\""",TD
+ TODO(ahundt) clean up,TD
+ HACK in some rare cases,TD
+ TODO: current is hack,TD
+ TODO find cleaner way of distinguishing these 2Dlines,TD
+ TODO way to condense into one line?,TD
+ [hack] hard-coded,TD
+ TODO: simplify formating,TD
+ print move,TD
+ Fix setuptools setup.py,TD
+todo: Last detail,TD
+ MAYBE TODO: make more efficient,TD
+ TODO(ahundt) make a single,TD
+ TODO(rathodv): Move `unmatched_cls_target` from constructor to assign,TD
+ FIX THIS URGENT,TD
+ TODO: Fix me here,TD
+ TODO(rathodv): num_predictions_per_location could be moved to constructor.,TD
+ XXX Kludgey mess.  Please reorganize.,TD
+ TODO: num_predictions_per_location could be moved to constructor.,TD
+ TODO eagerly fuse substitutions.,TD
+ Quick fix to make it compatible with Python3. Needs to be re-written.,TD
+ TODO: Rewrite these checkings!!!,TD
+ TODO would like this to perhaps be a seperate function,TD
+ A workaround is to use the center of the key to make length of the key and the value the same.,TD
+ hack to allow local testing,TD
+ hack,TD
+ ``shared_y`` we will have to cast it to int. This little hack,TD
+ HACK: Stop nosetests running setup() above,TD
+ CURRENTLY HACKED AND EXPERIMENTAL,TD
+ hack to speed up process,TD
+ hack to speed up process,TD
+ hack to speed up process,TD
+ THIS IS A VERY UGLY FUNCTION because it has hardcoded 0\/4\/5 integers for each of the metric. I need to make an enumerated class for this!,TD
+ TODO implement,TD
+ noinspection PyUnusedLocal,TD
+ TODO: put in the option to do substitution here (most likely scenario,TD
+ TODO(Swabha): add inheritance for constit sentence vs dep sentence,TD
+ todo: test me,TD
+ unused,TD
+ TODO,TD
+ This is a bit ugly,TD
+ TODO Need to determine a variable initialization method,TD
+ TODO(kentonl): Replace this with @mingweichang's official eval script.,TD
+ TODO: Add tests.,TD
+ TODO: check output looks correct,TD
+ TODO Check if this is correct,TD
+" \""FIXME: Add wide range of test cases here.\""",TD
+ Tests that named constructor gives working target assigners. ||  ||     TODO(rathodv): Make this test more general. ||,TD
+ Tests that named constructor gives working target assigners. ||  ||     TODO: Make this test more general. ||,TD
+ TODO(derekjchow): Add test for pet\/PASCAL main files.,TD
+ TODO not tested,TD
+ TODO: test when ARD=FALSE,TD
+ TODO: test better?,TD
+ TODO: figure out a good way of testing this,TD
+ FIXME: Extend tests to more merge situations!,TD
+ TODO: p0: write tests,TD
+ TODO(rathodv): Add tests.,TD
+ XXX : should we rather test if instance of estimator ?,TD
+ TODO add all the ph_sel combinations like in test_bg_from(),TD
+ this is a bit of a hack,TD
+ TODO: refactor to be understandable,TD
+ TODO: elaborate it,TD
+ :log : TODO,TD
+ FIXME,TD
+ It's a kind of workaround,TD
+ TODO: Maybe switch back to letting ginga handle conversion,TD
+ It's a kind of workaround,TD
+ !!! TODO: We are not handling those here.,TD
+ to-do,TD
+ FIXME(zurk): change to simple function. Vadim Markovtsev comments:,TD
+ padding that follows is a hack for chime,TD
+ TODO That should probably also be diveded by k...,TD
+ @TODO(delete),TD
+ It's a kind of workaround,TD
+ imgmath_font_size = 14,TD
+ todo: more general?,TD
+ TODO,TD
+ mac os #FIXME,TD
+ TODO: Get data from webcompat using issue_parser (https:\/\/github.com\/webcompat\/issue_parser) if the file doesn't exist.,TD
+ TODO(rathodv): Replace with slim.arg_scope_func_key once its available,TD
+ TODO: bug when EOS is used and BOS is not used!,TD
+ todo: docstring,TD
+ FIXME doesnt allow default_value yet,TD
+ TODO: Inherit from BabiConfig,TD
+ TODO: Sanity checks.,TD
+ TODO: add EER value later,TD
+ TODO: add a config for always keeping specific iterations in,TD
+ TODO. add an option to handle this list,TD
+ TODO(nh2tran): _linear,TD
+ TODO: Add this to configuration framework,TD
+ duration = 1 #FIXME: hardcoded (default duration),TD
+ MAYBE TODO LATER: Support for multiple statement in then=,TD
+ TODO in case success = False,TD
+" string=string.decode(\""utf-8\"") #ADD TODO add this for python 2.7",TD
+ duration = 1 #FIXME: hardcoded (default duration),TD
+ TODO support variations,TD
+ TODO: multi-GPU support,TD
+ TODO: to be defined1. ||  ||         :nlayer: TODO ||         :filters: TODO ||         :lam: TODO ||         :alpha: TODO ||         :untied: TODO ||         :coord: TODO ||         :scope: TODO ||  ||,TD
+ TODO: would be good to add ref from source,TD
+ TODO : multi-scale,TD
+ TODO: Save both cursor and linking pos,TD
+ TODO query.delete will fire a delete from,TD
+ FIXME: But these below should really be order 1 to 1.5 according to Wamsi!,TD
+ In the long run,TD
+ TODO - run this for extended period of time to get all players,TD
+ TODO(fhieber): no attention probs for now,TD
+ hack; this is actually an ID but can't add new attributes,TD
+ in a better way,TD
+ can't think of a better solution,TD
+ Hack for single-threaded,TD
+ todo: explore how to gp on eager mode,TD
+ TODO: This probably needs a better implementation,TD
+ HACK to save the replay wrapper,TD
+ FIXME: A hack that depends on the _0 convention,TD
+ TODO: Speed this up. This is the slowest part for large PDB files. From 700ms to 7s,TD
+ HACK This may not always work,TD
+ FIXME: need a better way to set the figure size,TD
+ # TODO: better implementation,TD
+ Maybe thread-safer way of doing this? Maybe not,TD
+ TODO: implement and test Blockbuilder API layer.,TD
+ TODO: refactor this,TD
+ TODO: Refactor - Use PyTest,TD
+ TODO: Refactor - Use PyTest,TD
+ TODO: Refactor - Use PyTest,TD
+ TODO: Refactor - Use PyTest,TD
+ TODO,TD
+ todo: when repo.subscribe(observer),TD
+ todo,TD
+ TODO bio assemblies,TD
+ FIXME: make this configurable,TD
+ is an inconsistent state (which we could improve this to check for)).,TD

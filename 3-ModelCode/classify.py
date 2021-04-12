@@ -4,6 +4,7 @@ def preprocess(comment):
 
     lemmatizer = WordNetLemmatizer()
 
+    #follow same preprocess methods used to create feature data
     to_replace = ['\\','/','(', ')', '[', ']' ';',':', ',', '.', '!', '?', '#', '~', '_', '+','-', '1','2','3','4','5','6','7','8','9','0', '@','\'', '`', '"', '>', '<', '*']
     bad_words = ['but', '||', 'the', 'then', 'an', 'a', 'our', 'than', 'with','after', 'give', 'of', 'what',
                  'me', 'own', 'too', 'for', 'on', 'that', 'so', 'and', 'ahundt','but', 'we','when','we', 'when',
@@ -15,6 +16,7 @@ def preprocess(comment):
     comment = comment.lower()
     comment = comment.split()
 
+    #lemmatize all legal words and reconstruct the preprocessed string
     toBuild = []
     for item in comment:
         item = lemmatizer.lemmatize(item)
@@ -28,6 +30,9 @@ def commentToVector(comment):
 
     feature_words = []
 
+    #the FEATURE_WORDS.txt file follows the structure:
+    #       feature_word value
+    #we only want the feature_word, and not the information gain value
     with open('FEATURE_WORDS.txt', 'r') as inputFile:
         dataset = inputFile.readlines()
 
@@ -36,6 +41,7 @@ def commentToVector(comment):
         
         del dataset
 
+    #construct a list of 0s and 1s indicating if word at index n is in the given comment
     outputVector = []
     comment_split = comment.split()
 
@@ -54,6 +60,8 @@ def classifyComment(myVector):
     from sklearn.neural_network import MLPClassifier as Classifier
     from sklearn.model_selection import train_test_split
 
+    #load our pretrained model that currently has an 89% accuracy rating
+    #and use it to classify the comment, return the predicted result
     loaded_model = pickle.load(open('saved_model.pkl', 'rb'))
 
     return loaded_model.predict(myVector)
@@ -61,10 +69,11 @@ def classifyComment(myVector):
 
 def classify(comment):
 
+    #preprocess the comment
     comment = preprocess(comment)
 
+    #turn the preprocessed comment into a classifiable data structure
     commentVector = commentToVector(comment)
 
-    print(classifyComment(commentVector))
+    return classifyComment(commentVector)
 
-classify('the code below preprocesses our connections')

@@ -1,0 +1,69 @@
+G:\My Drive\IMPORTANT_STUFF\8TH SEMESTER\UNDERGRAD_RESEARCH : TD
+       # TODO fix this stuff, hopefully this gets found
+
+G:\My Drive\IMPORTANT_STUFF\8TH SEMESTER\UNDERGRAD_RESEARCH\2-Data&DataGen : DSTD
+       #using the previous 4 dictionaries: comments + label, word with dedicated spot for information gained,
+
+G:\My Drive\IMPORTANT_STUFF\8TH SEMESTER\UNDERGRAD_RESEARCH\2-Data&DataGen : DSTD
+       #   every word and its probability that it appears, and each label and the probability that it appears
+
+G:\My Drive\IMPORTANT_STUFF\8TH SEMESTER\UNDERGRAD_RESEARCH\2-Data&DataGen : DSTD
+       #   find the information gain using the correct formula
+
+G:\My Drive\IMPORTANT_STUFF\8TH SEMESTER\UNDERGRAD_RESEARCH\2-Data&DataGen : DSTD
+       #need to split, otherwise a word like 'autodoc' would be a false positive including 'todo'
+
+G:\My Drive\IMPORTANT_STUFF\8TH SEMESTER\UNDERGRAD_RESEARCH\2-Data&DataGen : DSTD
+       #Information Gain Formula:
+
+G:\My Drive\IMPORTANT_STUFF\8TH SEMESTER\UNDERGRAD_RESEARCH\2-Data&DataGen : DSTD
+       #       - p(w,t) = probability that a word 'w' appears in a comment with label 't'
+
+G:\My Drive\IMPORTANT_STUFF\8TH SEMESTER\UNDERGRAD_RESEARCH\2-Data&DataGen : DSTD
+       #       - p(w) = probability that a word 'w' appears in a comment
+
+G:\My Drive\IMPORTANT_STUFF\8TH SEMESTER\UNDERGRAD_RESEARCH\2-Data&DataGen : DSTD
+       #       - p(t) = probability that a label 't' appears in a comment
+
+G:\My Drive\IMPORTANT_STUFF\8TH SEMESTER\UNDERGRAD_RESEARCH\3-ModelCode : DSTD
+       #follow same preprocess methods used to create feature data
+
+G:\My Drive\IMPORTANT_STUFF\8TH SEMESTER\UNDERGRAD_RESEARCH\3-ModelCode : DSTD
+       #the FEATURE_WORDS.txt file follows the structure:
+
+G:\My Drive\IMPORTANT_STUFF\8TH SEMESTER\UNDERGRAD_RESEARCH\3-ModelCode : DSTD
+       #we only want the feature_word, and not the information gain value
+
+G:\My Drive\IMPORTANT_STUFF\8TH SEMESTER\UNDERGRAD_RESEARCH\3-ModelCode : DSTD
+       #load our pretrained model that currently has an 89% accuracy rating
+
+G:\My Drive\IMPORTANT_STUFF\8TH SEMESTER\UNDERGRAD_RESEARCH\3-ModelCode : DSTD
+       #turn the preprocessed comment into a classifiable data structure
+
+G:\My Drive\IMPORTANT_STUFF\8TH SEMESTER\UNDERGRAD_RESEARCH\4-Runner : DSTD
+       #follow same preprocess methods used to create feature data
+
+G:\My Drive\IMPORTANT_STUFF\8TH SEMESTER\UNDERGRAD_RESEARCH\4-Runner : DSTD
+       #the FEATURE_WORDS.txt file follows the structure:
+
+G:\My Drive\IMPORTANT_STUFF\8TH SEMESTER\UNDERGRAD_RESEARCH\4-Runner : DSTD
+       #we only want the feature_word, and not the information gain value
+
+G:\My Drive\IMPORTANT_STUFF\8TH SEMESTER\UNDERGRAD_RESEARCH\4-Runner : DSTD
+       #load our pretrained model that currently has an 89% accuracy rating
+
+G:\My Drive\IMPORTANT_STUFF\8TH SEMESTER\UNDERGRAD_RESEARCH\4-Runner : DSTD
+       #turn the preprocessed comment into a classifiable data structure
+
+G:\My Drive\IMPORTANT_STUFF\8TH SEMESTER\UNDERGRAD_RESEARCH\4-Runner : DSTD
+       #TODO tune this model to predict better output
+
+G:\My Drive\IMPORTANT_STUFF\8TH SEMESTER\UNDERGRAD_RESEARCH\4-Runner : TD
+       # TODO fix this stuff, hopefully this gets found
+
+G:\My Drive\IMPORTANT_STUFF\8TH SEMESTER\UNDERGRAD_RESEARCH\4-Runner : DSTD
+       # we can also use token.tok_name[toktype] instead of 'COMMENT'
+
+G:\My Drive\IMPORTANT_STUFF\8TH SEMESTER\UNDERGRAD_RESEARCH\4-Runner : DSTD
+       # from the token module 
+

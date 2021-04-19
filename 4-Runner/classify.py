@@ -62,7 +62,7 @@ def classifyComment(myVector):
 
     #load our pretrained model that currently has an 89% accuracy rating
     #and use it to classify the comment, return the predicted result
-    loaded_model = pickle.load(open('G:/My Drive/IMPORTANT_STUFF/8TH SEMESTER/UNDERGRAD_RESEARCH/4-Runner/saved_model.pkl', 'rb'))
+    loaded_model = pickle.load(open('G:/My Drive/IMPORTANT_STUFF/8TH SEMESTER/UNDERGRAD_RESEARCH/4-Runner/saved_model_v2.pkl', 'rb'))
 
     return loaded_model.predict(myVector) 
 
@@ -75,4 +75,3 @@ def classify(comment):
     commentVector = commentToVector(comment)
 
     return classifyComment(commentVector)
-

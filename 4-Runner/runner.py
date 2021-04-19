@@ -15,15 +15,17 @@ def getComments(filename):
 
     return output
 
-def runner(path):
+def runner(path, output_location):
     from datetime import datetime
 
     output = recursive_helper(path)
 
-    os.chdir(path + '/5-OUTPUT')
+    os.chdir(output_location)
 
     now = datetime.now()
     filename = now.strftime("%d-%m-%Y-%H-%M-%S.txt")
+
+    print("Output File is Named: " + filename)
 
     with open(filename, 'w') as outputFile:
         outputFile.write(output)
@@ -43,6 +45,7 @@ def recursive_helper(path):
     #first, we want to classify all local python files before going into a directory
     for item in content:
         if item.endswith('.py'):
+            print(item)
             comments = getComments(item)
 
             for comment in comments:
@@ -64,4 +67,4 @@ def recursive_helper(path):
 
     return output
 
-runner('G:/My Drive/IMPORTANT_STUFF/8TH SEMESTER/UNDERGRAD_RESEARCH')
+runner('G:/My Drive/IMPORTANT_STUFF/8TH SEMESTER/UNDERGRAD_RESEARCH/6-EVALUATION', 'G:/My Drive/IMPORTANT_STUFF/8TH SEMESTER/UNDERGRAD_RESEARCH/5-OUTPUT')

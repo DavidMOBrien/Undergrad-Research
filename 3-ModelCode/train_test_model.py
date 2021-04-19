@@ -17,7 +17,7 @@ best_accuracy = 0
 
 for i in range(100):
     print(best_accuracy, i)
-    classifier = Classifier(max_iter = 500, warm_start = True, hidden_layer_sizes = (1000,1000,200))
+    classifier = Classifier(max_iter = 500, warm_start = True, hidden_layer_sizes = (100, 100, 100))
     classifier.fit(X_train,y_train)
 
     y_pred = classifier.predict(X_test)

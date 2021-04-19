@@ -1,0 +1,9 @@
+G:\My Drive\IMPORTANT_STUFF\8TH SEMESTER\UNDERGRAD_RESEARCH\6-EVALUATION\1-preprocess : DSTD
+       #fixme: need to modify our stop word list, some words may hold value
+
+G:\My Drive\IMPORTANT_STUFF\8TH SEMESTER\UNDERGRAD_RESEARCH\6-EVALUATION\1-preprocess : TD
+       #todo: need to document this section better
+
+G:\My Drive\IMPORTANT_STUFF\8TH SEMESTER\UNDERGRAD_RESEARCH\6-EVALUATION\1-preprocess : DSTD
+       #todo: fix an error when input is an incorrect data type
+

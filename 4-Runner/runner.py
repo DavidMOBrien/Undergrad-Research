@@ -52,15 +52,15 @@ def recursive_helper(path):
                 result = classify.classify(comment)
 
                 if result == ['td']:
-                    output = output + os.getcwd() + ' : TD\n       ' + comment + '\n\n'
+                    output = output + os.getcwd() + '\\' + item + ' : TD\n       ' + comment + '\n\n'
 
                 if result == ['dstd']:
-                    output = output + os.getcwd() + ' : DSTD\n       ' + comment + '\n\n'
+                    output = output + os.getcwd() + '\\' + item + ' : DSTD\n       ' + comment + '\n\n'
     
     #next, we want to go into each neighboring directory
     for item in content:
         if os.path.isdir(item) and item not in ignorable_directories:
-            output += recursive_helper(path + '/' + item)
+            output += recursive_helper(path + "/" + item)
         os.chdir(path)
     
     print('leaving ' + path)

@@ -1,0 +1,12 @@
+G:\My Drive\IMPORTANT_STUFF\8TH SEMESTER\UNDERGRAD_RESEARCH\6-EVALUATION\1-preprocess\remove_stop_words.py : DSTD
+       #fixme: need to modify our stop word list, some words may hold value
+
+G:\My Drive\IMPORTANT_STUFF\8TH SEMESTER\UNDERGRAD_RESEARCH\6-EVALUATION\1-preprocess\remove_stop_words.py : TD
+       #todo: need to document this section better
+
+G:\My Drive\IMPORTANT_STUFF\8TH SEMESTER\UNDERGRAD_RESEARCH\6-EVALUATION\1-preprocess\lemmatizer.py : DSTD
+       #todo: fix an error when input is an incorrect data type
+
+G:\My Drive\IMPORTANT_STUFF\8TH SEMESTER\UNDERGRAD_RESEARCH\6-EVALUATION\2-model\rl-model.py : DSTD
+       #Fixme: there are some weird reward functions that exist
+
